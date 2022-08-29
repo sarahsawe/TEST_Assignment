@@ -20,8 +20,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 Route::get('/projects/all', [ProjectController::class, 'index']);
 // Route::get('projects/{Project_Ref}', [ProjectController::class, 'show']);
-Route::get('projects/country/{Country}', [ProjectController::class, 'show_country']);
-Route::get('projects/{Status}', [ProjectController::class, 'show_status']);
+Route::get('projects/Country/{Country}', [ProjectController::class, 'show_country']);
+Route::get('projects/Status/{Status}', [ProjectController::class, 'show_status']);
 // Route::get('projects', 'ProjectController@index');
 // Route::get('projects/{Project_Ref}', 'ProjectController@show');
 // Route::get('projects/{Country}', 'ProjectController@show_country');

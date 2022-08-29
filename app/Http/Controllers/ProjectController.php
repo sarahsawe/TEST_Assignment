@@ -16,11 +16,11 @@ class ProjectController extends Controller
     }
     public function show_country($Country) 
     {
-        return response()->json(projects::where('Project_Ref', 'like', '%' . 'TON-RS-002' . '%'));
+        return response()->json(projects::where('Country', 'like', '%' . $Country . '%'));
     }
 
     public function show_status($Status)
     {
-        return projects::find($Status);
+        return response()->json(projects::where('Status', 'like', '%' . $Status . '%'));
     }
 }
