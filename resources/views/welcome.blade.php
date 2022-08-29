@@ -53,7 +53,7 @@ table {
 .dataTables_info{
     padding: 20px !important;
 }
-.dtBasicExample_filter {
+.dataTables_filter {
     padding: 20px !important;
 }
 .btn{
