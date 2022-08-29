@@ -38,8 +38,8 @@ tr {
 table {
   padding-top: 20px !important;
   padding-bottom: 20px !important;
-  padding-left: 20px !important;
-  padding-right: 20px !important;
+  padding-left: 15px !important;
+  padding-right: 5px !important;
 }
 .table-condensed{
   font-size: 10px;
