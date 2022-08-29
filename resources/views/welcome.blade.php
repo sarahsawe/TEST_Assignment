@@ -52,11 +52,9 @@ table {
     padding: 4px 11px !important;
     font-size: 8px !important;
 }
-        </style>
-
-        <style>
             body {
                 font-family: 'Nunito', sans-serif;
+                border: 0px !important;
             }
         </style>
     </head>
