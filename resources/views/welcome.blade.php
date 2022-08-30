@@ -63,7 +63,7 @@ table {
         <section style="background-color: #f3f5f9;">
         <div class="container-fluid logo">
                 <img src="{{ asset('image/logo.png') }}" alt="logo"class="img-fluid" style="width:100px; height:50px;"></img>              
-                <span class="pull-right">Corporate Services Division / Enterprise Solutions Section Projects </span>
+                <h2 class="pull-right">Corporate Services Division / Enterprise Solutions Section Projects </h2>
             </div> 
 
         </section>     
